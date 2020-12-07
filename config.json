@@ -1,0 +1,25 @@
+{
+	"name": {
+		"zh-cn": "Gravity:电容指纹识别模块",
+		"en": "Gravity Capacitive Fingerprint Sensor"
+	},
+	"description": {
+		"zh-cn": "一款方便易用的指纹模块。",
+		"en": "Gravity Capacitive Fingerprint Sensor."
+	},
+	"author": "liliang",
+	"email": "969316753@qq.com",
+	"license": "MIT",
+	"isBoard": false,
+	"id": "gravityid809",
+	"platform": ["win", "mac", "web"],
+	"version": "0.0.1",
+	"asset": {
+		"arduinoC": {
+			"dir": "arduinoC/",
+			"version": "0.0.1",
+			"board": ["microbit", "esp32","arduino","arduinonano","leonardo","mega2560","firebeetleesp32","telloesp32","maqueen","romeo","arduinounor3","maxbot"],
+			"main": "main.ts"
+		}
+	}
+}

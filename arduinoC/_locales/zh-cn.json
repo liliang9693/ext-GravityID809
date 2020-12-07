@@ -1,0 +1,30 @@
+{
+    "gravityid809.begin|block": "指纹识别模块 初始化",
+    "gravityid809.isconnect|block": "等待直到指纹模块连接成功",
+    "gravityid809.ledcotrl|block": "设置LED灯 颜色[LEDCOLOR] 模式[LEDMODE] 次数[BLINKCOUNT]",
+    "gravityid809.detectfinger|block": "手指触碰？",
+    "gravityid809.collectionFingerprint|block": "采集一次指纹 超时时间[TIMEOUT]秒",
+    "gravityid809.search|block": "将采集的指纹与所有ID匹配",
+    "gravityid809.verify|block": "将采集的指纹与ID[ID]匹配",
+    "gravityid809.getemptyid|block": "获取一个可注册ID",
+    "gravityid809.getStatusID|block": "ID[ID]已注册?",
+    "gravityid809.getEnrollCount|block": "获取注册用户数量",
+    "gravityid809.storeFingerprint|block": "保存指纹到ID[ID]",
+    "gravityid809.delFingerprint|block": "删除指纹ID[ID]",
+
+    "gravityid809.LEDMODE.eBreathing|menu": "呼吸",
+    "gravityid809.LEDMODE.eFastBlink|menu": "快闪",
+    "gravityid809.LEDMODE.eKeepsOn|menu": "常开",
+    "gravityid809.LEDMODE.eNormalClose|menu": "常闭",
+    "gravityid809.LEDMODE.eFadeIn|menu": "渐开",
+    "gravityid809.LEDMODE.eFadeOut|menu": "渐关",
+    "gravityid809.LEDMODE.eSlowBlink|menu": "慢闪",
+    "gravityid809.LEDCOLOR.eLEDGreen|menu": "绿色",
+    "gravityid809.LEDCOLOR.eLEDRed|menu": "红色",
+    "gravityid809.LEDCOLOR.eLEDYellow|menu": "黄色",
+    "gravityid809.LEDCOLOR.eLEDBlue|menu": "蓝色",
+    "gravityid809.LEDCOLOR.eLEDCyan|menu": "青色",
+    "gravityid809.LEDCOLOR.eLEDMagenta|menu": "洋红",
+    "gravityid809.LEDCOLOR.eLEDWhite|menu": "白色"
+
+}
