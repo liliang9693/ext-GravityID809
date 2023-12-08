@@ -41,13 +41,15 @@ MIT
 
 ## Supported targets
 
-MCU                | JavaScript    | Arduino   | MicroPython    | Remarks
+MCU                | JavaScript    | Arduino   | Python    | Remarks
 ------------------ | :----------: | :----------: | :---------: | -----
 arduino        |             |        √      |             | 
 micro:bit        |             |       √       |             | 
 esp32        |             |        √      |             | 
+unihiker        |             |            |       √        | 
 
 
 ## Release Logs
 * V0.0.1  基础功能完成
+* V0.0.2  Python模式支持
 

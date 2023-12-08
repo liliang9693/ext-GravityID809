@@ -1,0 +1,24 @@
+{
+	"LEDMODE":{
+		"menu":[
+			["breathing","breathing"],
+			["fast_blink","fast_blink"],
+			["keeps_on","keeps_on"],
+			["normal_close","normal_close"],
+			["fade_in","fade_in"],
+			["fade_out","fade_out"],
+			["slow_blink","slow_blink"]
+		]
+	},
+	"LEDCOLOR":{
+		"menu":[
+			["green","green"],
+			["red","red"],
+			["yellow","yellow"],
+			["blue","blue"],
+			["cyan","cyan"],
+			["magenta","magenta"],
+			["white","white"]
+		]
+	}
+}

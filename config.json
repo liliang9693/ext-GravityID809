@@ -13,13 +13,19 @@
 	"isBoard": false,
 	"id": "gravityid809",
 	"platform": ["win", "mac", "web"],
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"asset": {
 		"arduinoC": {
 			"dir": "arduinoC/",
 			"version": "0.0.1",
 			"board": ["microbit", "esp32","arduino","arduinonano","leonardo","mega2560","firebeetleesp32","telloesp32","maqueen","romeo","arduinounor3","maxbot"],
 			"main": "main.ts"
-		}
+		},
+		"python": {
+			"dir": "python/",
+			"main": "main.ts",
+			"version": "0.0.1",
+			"dependencies": {}
+		  }
 	}
 }
